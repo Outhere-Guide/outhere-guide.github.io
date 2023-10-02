@@ -1,0 +1,38 @@
+body {
+    background-color:#F8FE00
+}
+
+.main-grid {
+    position: absolute; 
+    top: 40%; 
+    left: 30%; 
+    right: 30%; 
+    width: 40%; 
+    display: grid; 
+    grid-template-columns: auto auto auto;
+}
+
+.logo {
+    grid-column: 1 / span 3;
+    justify-self: center; 
+    align-self: middle;
+    padding-bottom: 20px;
+}
+
+.text-block {
+    font-size: large;
+}
+
+.first-text-block {
+    justify-self: end;
+}
+
+.brand-name-block {
+    font-family: Westinghouse; 
+    font-size: xx-large;
+    justify-self: center;
+}
+
+.last-text-block {
+    justify-self: start;
+}
